@@ -19,7 +19,7 @@ WIDTH = 800
 HEIGHT = 480
 
 
-class MicromaxDisplayApp:
+class Samsungdisplayapp:
 
     def __init__(self, root):
         self.root = root
@@ -51,7 +51,7 @@ class MicromaxDisplayApp:
 
         ttk.Label(
             main,
-            text="MICROMAX USB DISPLAY",
+            text= "SAMSUNG USB DISPLAY",
             font=("Segoe UI", 17, "bold")
         ).pack(pady=(0, 5))
 
@@ -179,7 +179,7 @@ class MicromaxDisplayApp:
 
         ttk.Label(
             main,
-            text="Micromax P280 | 800 x 480 | ADB USB",
+            text="Samsung tab 2 | 800 x 480 | ADB USB",
             foreground="gray",
             font=("Segoe UI", 8)
         ).pack(pady=5)
@@ -411,5 +411,5 @@ class MicromaxDisplayApp:
 if __name__ == "__main__":
 
     root = tk.Tk()
-    app = MicromaxDisplayApp(root)
+    app = Samsungdisplayapp(root)
     root.mainloop()
