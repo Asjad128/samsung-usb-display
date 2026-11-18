@@ -1,5 +1,5 @@
 
-package com.voidcrew.micromaxdisplay;
+package com.afas.samsungusbdisplay;
 
 import android.content.Context;
 import android.graphics.Bitmap;

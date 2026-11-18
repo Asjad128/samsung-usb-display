@@ -1,5 +1,5 @@
 
-package com.voidcrew.micromaxdisplay;
+package com.afas.samsungusbdisplay;
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;

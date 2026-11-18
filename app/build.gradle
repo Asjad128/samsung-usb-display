@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'your.package.name'
+    namespace 'com.afas.samsungusbdisplay'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.yourname.samsungusbdisplay"
+        applicationId "com.afas.samsungusbdisplay"
         minSdk 16
         targetSdk 29
         versionCode 1

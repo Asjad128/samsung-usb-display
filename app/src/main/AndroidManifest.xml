@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="false"
-        android:label="Micromax USB Display"
+        android:label="Samsung USB Display"
         android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
         <activity
             android:name=".MainActivity"
