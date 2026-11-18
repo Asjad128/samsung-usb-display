@@ -11,7 +11,7 @@ from PIL import Image, ImageGrab
 
 
 # Configuration
-ADB = r"F:\platform-tools\adb.exe"
+ADB = r"D:\platform-tools\adb.exe"
 HOST = "127.0.0.1"
 PORT = 27183
 
@@ -23,7 +23,7 @@ class MicromaxDisplayApp:
 
     def __init__(self, root):
         self.root = root
-        self.root.title("Micromax USB Display")
+        self.root.title("Samsung USB Display")
         self.root.geometry("480x680")
         self.root.resizable(False, False)
 
