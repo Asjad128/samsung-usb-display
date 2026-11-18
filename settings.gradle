@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = 'Mission_P_280'
+rootProject.name = "samsung-usb-display"
 include ':app'
